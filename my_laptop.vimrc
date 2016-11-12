@@ -249,9 +249,11 @@ map <leader>bd :bd<cr>
 " Close all the buffers
 map <leader>ba :1,300 bd!<cr>
 
-" Moving tab using CTRL+ the arrows
-map <C-right> :bn<CR>
-map <C-left> :bp<CR>
+" Moving tab/buffer using CTRL+ the arrows
+" map <C-right> :bn<CR>
+" map <C-left> :bp<CR>
+:nnoremap <C-n> :bnext<CR>
+:nnoremap <C-p> :bprevious<CR>
 
 " Tab configuration
 map <leader>tn :tabnew! %<cr>
