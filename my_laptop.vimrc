@@ -342,7 +342,7 @@ noremap <BS> <PageUp>
 " Execute Python file being edited with <Shift> + e:
 nnoremap E w:<CR>:!python % <CR>
 
-" Shortcut to Close quickfix window with leader+c
+" Shortcut to Close quickfix window with leader+q
 nnoremap <leader>q <CR>:cclose<CR>
 
 " Set autocomplete form 
@@ -359,6 +359,10 @@ autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
 autocmd FileType php,ctp set omnifunc=phpcomplete#CompletePHP
 autocmd FileType vim set omnifunc=syntaxcomplete#Complete
+
+
+"Omin AutoCompletion trigger by hitting ,,
+inoremap <leader>, <C-x><C-o>
 
 " markdown
 "au BufEnter,Bufread *.mkd,*.md,*.mdown,*.markdown set tw=0
