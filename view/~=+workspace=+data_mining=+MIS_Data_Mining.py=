@@ -10,7 +10,7 @@ setlocal fdn=20
 setlocal fen
 14
 normal! zo
-lcd ~/workspace/data_mining
+lcd ~/
 let &so = s:so_save | let &siso = s:siso_save
 doautoall SessionLoadPost
 " vim: set ft=vim :
