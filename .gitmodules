@@ -1,0 +1,111 @@
+[submodule "bundle/AutoComplPop"]
+	path = bundle/AutoComplPop
+	url = https://github.com/vim-scripts/AutoComplPop.git
+[submodule "bundle/Gundo"]
+	path = bundle/Gundo
+	url = https://github.com/vim-scripts/Gundo.git
+[submodule "bundle/L9"]
+	path = bundle/L9
+	url = https://github.com/vim-scripts/L9.git
+[submodule "bundle/PHP-Indenting-for-VIm"]
+	path = bundle/PHP-Indenting-for-VIm
+	url = https://github.com/2072/PHP-Indenting-for-VIm.git
+[submodule "bundle/Pydiction"]
+	path = bundle/Pydiction
+	url = https://github.com/vim-scripts/Pydiction.git
+[submodule "bundle/Syntastic"]
+	path = bundle/Syntastic
+	url = https://github.com/vim-scripts/Syntastic.git
+[submodule "bundle/Tagbar"]
+	path = bundle/Tagbar
+	url = https://github.com/vim-scripts/Tagbar.git
+[submodule "bundle/The-NERD-tree"]
+	path = bundle/The-NERD-tree
+	url = https://github.com/vim-scripts/The-NERD-tree.git
+[submodule "bundle/Vundle.vim"]
+	path = bundle/Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim.git
+[submodule "bundle/better-indent-support-for-php-with-html"]
+	path = bundle/better-indent-support-for-php-with-html
+	url = https://github.com/captbaritone/better-indent-support-for-php-with-html.git
+[submodule "bundle/csapprox"]
+	path = bundle/csapprox
+	url = https://github.com/godlygeek/csapprox.git
+[submodule "bundle/ctrlp.vim"]
+	path = bundle/ctrlp.vim
+	url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule "bundle/delimitMate.vim"]
+	path = bundle/delimitMate.vim
+	url = https://github.com/vim-scripts/delimitMate.vim.git
+[submodule "bundle/fugitive.vim"]
+	path = bundle/fugitive.vim
+	url = https://github.com/vim-scripts/fugitive.vim.git
+[submodule "bundle/indentpython.vim"]
+	path = bundle/indentpython.vim
+	url = https://github.com/vim-scripts/indentpython.vim.git
+[submodule "bundle/matchit.zip"]
+	path = bundle/matchit.zip
+	url = https://github.com/vim-scripts/matchit.zip.git
+[submodule "bundle/minibufexpl.vim"]
+	path = bundle/minibufexpl.vim
+	url = https://github.com/vim-scripts/minibufexpl.vim.git
+[submodule "bundle/mru.vim"]
+	path = bundle/mru.vim
+	url = https://github.com/vim-scripts/mru.vim.git
+[submodule "bundle/neocomplcache"]
+	path = bundle/neocomplcache
+	url = https://github.com/vim-scripts/neocomplcache.git
+[submodule "bundle/pep8"]
+	path = bundle/pep8
+	url = https://github.com/vim-scripts/pep8.git
+[submodule "bundle/phpcomplete.vim"]
+	path = bundle/phpcomplete.vim
+	url = https://github.com/shawncplus/phpcomplete.vim.git
+[submodule "bundle/pydoc.vim"]
+	path = bundle/pydoc.vim
+	url = https://github.com/fs111/pydoc.vim.git
+[submodule "bundle/pyflakes.vim"]
+	path = bundle/pyflakes.vim
+	url = https://github.com/vim-scripts/pyflakes.vim.git
+[submodule "bundle/sparkup"]
+	path = bundle/sparkup
+	url = https://github.com/rstacruz/sparkup.git
+[submodule "bundle/tComment"]
+	path = bundle/tComment
+	url = https://github.com/vim-scripts/tComment.git
+[submodule "bundle/tlib_vim"]
+	path = bundle/tlib_vim
+	url = https://github.com/tomtom/tlib_vim.git
+[submodule "bundle/vdebug"]
+	path = bundle/vdebug
+	url = https://github.com/vim-vdebug/vdebug.git
+[submodule "bundle/vim-addon-mw-utils"]
+	path = bundle/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "bundle/vim-autoformat"]
+	path = bundle/vim-autoformat
+	url = https://github.com/Chiel92/vim-autoformat.git
+[submodule "bundle/vim-colorschemes"]
+	path = bundle/vim-colorschemes
+	url = https://github.com/flazz/vim-colorschemes.git
+[submodule "bundle/vim-dzo"]
+	path = bundle/vim-dzo
+	url = https://github.com/Blevs/vim-dzo.git
+[submodule "bundle/vim-javascript"]
+	path = bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "bundle/vim-mustang"]
+	path = bundle/vim-mustang
+	url = https://github.com/cschlueter/vim-mustang.git
+[submodule "bundle/vim-resize"]
+	path = bundle/vim-resize
+	url = https://github.com/breuckelen/vim-resize.git
+[submodule "bundle/vim-snipmate"]
+	path = bundle/vim-snipmate
+	url = https://github.com/garbas/vim-snipmate.git
+[submodule "bundle/vim-snippets"]
+	path = bundle/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
