@@ -53,6 +53,12 @@ Plugin 'flazz/vim-colorschemes'
 " =====================================================
 Plugin 'vim-scripts/matchit.zip'
 Plugin 'vim-scripts/delimitMate.vim'
+" Plugin 'phpactor/phpactor'
+
+" vim ctag plugin for go to definition
+Plugin 'ludovicchabant/vim-gutentags'
+" Plugin 'xolox/vim-easytags'
+" Plugin 'xolox/vim-misc'
 
 " Syntax Commenter
 " =====================================================
@@ -75,7 +81,7 @@ Plugin 'honza/vim-snippets'
 " Plugin 'vim-scripts/UltiSnips'
 Plugin 'vim-scripts/Syntastic'
 Plugin 'shawncplus/phpcomplete.vim'
-Plugin '2072/PHP-Indenting-for-VIm'
+" Plugin '2072/PHP-Indenting-for-VIm'
 
 " Python Syntax Checker & Documentation
 " =====================================================
@@ -252,8 +258,9 @@ let g:CSApprox_attr_map = { 'bold' : 'bold', 'italic' : '', 'sp' : '' }
 set t_Co=256 
 " colorscheme xoria256 
 " colorscheme evolution 
-colorscheme wombat256
-set gfn=Input\ 10 
+colorscheme jellybeans
+
+set gfn=Fira\ Code:h10 
 
 " set encoding=utf8
 " try
@@ -298,7 +305,7 @@ map <silent> <leader><cr> :nohlsearch<cr>
 map <leader>bd :bd<cr>
 
 " Close all the buffers
-map <leader>ba :1,300 bd<cr>
+map <leader>ba :call CloseAllBuffersButCurrent()<CR>
 
 "Hide current buffer
 map <leader>h :hide<CR>
@@ -736,3 +743,14 @@ autocmd BufRead,BufNew :call UMiniBufExplorer
 "                 \ exec oldwinnr . " wincmd w"
 " endif
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""}}}
+function! CloseAllBuffersButCurrent()
+  let curr = bufnr("%")
+  let last = bufnr("$")
+
+  if curr > 1    | silent! execute "1,".(curr-1)."bd"     | endif
+  if curr < last | silent! execute (curr+1).",".last."bd" | endif
+endfunction
+
+
+let g:neocomplcache_enable_at_startup = 1
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
