@@ -85,7 +85,8 @@ Plugin 'shawncplus/phpcomplete.vim'
 
 " Python Syntax Checker & Documentation
 " =====================================================
-Plugin 'vim-scripts/pyflakes.vim'
+" Plugin 'vim-scripts/pyflakes.vim'
+Plugin 'nvie/vim-flake8'
 Plugin 'vim-scripts/pep8'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'captbaritone/better-indent-support-for-php-with-html'
@@ -413,7 +414,7 @@ noremap <Space> <PageDown>
 noremap <BS> <PageUp>
 
 " Execute Python file being edited with <Shift> + e:
-nnoremap E w:<CR>:!python3 % <CR>
+nnoremap E w:<CR>:!python2.7 % <CR>
 
 " Shortcut to Close quickfix window with leader+q
 nnoremap <leader>q <CR>:cclose<CR>
@@ -428,7 +429,7 @@ autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,
 autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 autocmd FileType html,markdown,ctp set omnifunc=htmlcomplete#CompleteTags
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
-autocmd FileType python set omnifunc=pythoncomplete#Complete
+autocmd FileType python set omnifunc=python3complete#Complete
 autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
 autocmd FileType php,ctp set omnifunc=phpcomplete#CompletePHP
 autocmd FileType vim set omnifunc=syntaxcomplete#Complete
@@ -554,6 +555,7 @@ let g:ctrlp_use_caching = 0
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " MRU shorcuts
 map <leader><space> :MRU<CR> 
+map <leader>f :CtrlP <CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Pyflakes configuration
